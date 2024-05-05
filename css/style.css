@@ -1,0 +1,436 @@
+/* ここから下に記載していく */
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* メイン画像について */
+div {
+    position: relative;
+  }
+  img {
+    width: 100%; /* divの幅に対する割合 */
+  }
+  .aa {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 30px;
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .ab {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.b{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: yellow;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ba{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bb{
+    padding-bottom: 60px;
+}
+
+.bc{
+  padding-bottom: 30px;
+}
+
+.bd{
+  padding-bottom: 40px;
+}
+.be{
+  padding-bottom: 40px;
+}
+.bf{
+  padding-bottom: 80px;
+}
+
+.c{
+  display: flex;
+  justify-content: center;
+}
+
+.d{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.da{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 60px;
+}
+
+.e{
+  display: flex;
+  justify-content: center;
+}
+.ea{
+  flex-basis: 50%;
+}
+.eb{
+  flex-basis: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 50px;
+}
+.ec{
+  padding-top: 5%;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+.ed{
+  padding-bottom: 5%;
+}
+
+.f{
+  display: flex;
+  justify-content: center;
+}
+.fa{
+  flex-basis: 50%;
+}
+.fb{
+  flex-basis: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-right: 50px;
+}
+.fc{
+  padding-top: 5%;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+.fd{
+  padding-bottom: 5%;
+}
+
+.g{
+  display: flex;
+  justify-content: center;
+}
+.ga{
+  flex-basis: 50%;
+}
+.gb{
+  flex-basis: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 50px;
+}
+.gc{
+  padding-top: 5%;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+.gd{
+  padding-bottom: 5%;
+}
+
+.h{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: yellow;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ha{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 60px;
+}
+
+.i{
+  display: flex;
+  margin:0 auto;
+  width: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ia{
+  padding-right: 30px;
+}
+.ib :hover{
+  transform: scale(1.2);
+}
+.ic{
+  padding-left: 30px;
+}
+.ic :hover{
+  transform: scale(1.2);
+}
+.id{
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+.ie{
+  padding-bottom: 30px;
+  font-size: 10px;
+}
+.if{
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+.ig{
+  padding-bottom: 30px;
+  font-size: 10px;
+}
+.ih{
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+.ii{
+  padding-bottom: 30px;
+  font-size: 10px;
+}
+
+.m{
+  text-align: center;
+}
+.ma{
+  background: yellow;
+  border: yellow;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+}
+.m :hover{
+  transform: scale(1.2);
+}
+
+.mb{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mc{
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.md{
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+.me{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mf{
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 30%;
+}
+.mo{
+  padding-inline-start: 10%;
+}
+.mg{
+  display: flex;
+  padding-bottom: 30px;
+  padding-left: 30%;
+}
+.mh{
+  padding-inline-start: 6%;
+}
+.mi{
+  display: flex;
+  padding-bottom: 30px;
+  padding-left: 30%;
+}
+.mj{
+  padding-inline-start: 12%;
+}
+.mk{
+  display: flex;
+  padding-bottom: 30px;
+  padding-left: 30%;
+}
+.ml{
+  padding-inline-start: 12%;
+}
+.mm{
+  display: flex;
+  padding-bottom: 60px;
+  padding-left: 30%;
+}
+.mn{
+  padding-inline-start: 12%;
+}
+.n{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.na{
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.nb{
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+.nc{
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+.nd{
+  font-size: 16px;
+  padding-bottom: 70px;
+}
+
+
+ 
+input[type="submit"],
+input[type="text"],
+select,
+textarea,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+ 
+ 
+input[type="text"],
+textarea {
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 480px;
+  transition: 0.8s;
+  border-radius: 0;
+}
+ 
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+ 
+textarea[name="content"] {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+ 
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+ 
+::-webkit-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+.form-table {
+  width: 100%;
+}
+ 
+.form-table th,
+.form-table td {
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 20px;
+  width: 400px;
+}
+ 
+.form-table th {
+  /* background: #ffecea; */
+  padding-left: 50px;
+  position: relative;
+  text-align: left;
+  width: 240px;
+}
+
+.checkbox{
+    display:block;
+}
+.cba{
+  padding-bottom: 24px;
+}
+.cbb{
+  padding-bottom: 24px;
+}
+.cbc{
+  padding-bottom: 24px;
+}
+
+.buttona{
+  text-align: center;
+  }
+.buttonb{
+  background: yellow;
+  border: yellow;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+}
+
+.footer{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #707070;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
